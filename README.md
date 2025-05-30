@@ -18,8 +18,9 @@ Your main task is to build a very basic firewall. This firewall has the followin
 Write your code on the given `main.py` file.
 
 1. Parse the input, i.e., convert it from a string to a list of adequately typed values. E.g. `"192.168.20.12;192.168.30.125;123;86"` should become `['192.168.20.12', '192.168.30.125', 123, 86]`. *Hint: look up Python's built-in `map` function*;
-2. Block the inputs according to the functional requirements of your firewall. *Hint: look up Python's built-in `filter` function*;
-3. Print the sum of the allowed bytes. *Hint: look up Python's `reduce` method, which can be imported from `functools`*.
+2. Validate that the input you are getting is in the correct format. 
+3. Block the inputs according to the functional requirements of your firewall. *Hint: look up Python's built-in `filter` function*;
+4. Print the sum of the allowed bytes. *Hint: look up Python's `reduce` method, which can be imported from `functools`*.
 
 Your `main` function should have a single line of code:
 
